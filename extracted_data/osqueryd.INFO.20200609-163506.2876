@@ -1,0 +1,7 @@
+Log file created at: 2020/06/09 16:35:06
+Running on machine: ip-172-31-26-218
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0609 16:35:06.530037  2894 query.cpp:112] Storing initial results for new scheduled query: crontab
+I0609 16:38:00.572819  2894 query.cpp:112] Storing initial results for new scheduled query: pack_osquery-monitoring_osquery_info
+I0609 16:39:27.583207  2894 query.cpp:112] Storing initial results for new scheduled query: pack_incident-response_logged_in_users
+I0609 16:40:00.591128  2894 query.cpp:112] Storing initial results for new scheduled query: pack_incident-response_listening_ports

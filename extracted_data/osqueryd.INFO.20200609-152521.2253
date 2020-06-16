@@ -1,0 +1,5 @@
+Log file created at: 2020/06/09 15:25:21
+Running on machine: ip-172-31-26-218
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0609 15:25:21.327411  2253 events.cpp:863] Event publisher not enabled: auditeventpublisher: Publisher disabled via configuration
+I0609 15:25:21.329886  2253 events.cpp:863] Event publisher not enabled: syslog: Publisher disabled via configuration

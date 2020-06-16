@@ -1,0 +1,326 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:39Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "LookupEvents",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "eventCategory": "insight",
+        "maxResults": 50
+      },
+      "responseElements": null,
+      "requestID": "3ea9b792-dfe1-4f06-bfdf-1f5b8fdc94a9",
+      "eventID": "1f21681e-9fff-4267-827d-5b3a4c1784a7",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:44Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "ListAliases",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "5e952302-be2c-4a23-86bf-4c316edf07b6",
+      "eventID": "9740a881-2782-4945-8f74-7b6c25d63291",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:44Z",
+      "eventSource": "sns.amazonaws.com",
+      "eventName": "ListTopics",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "AWSCloudTrail, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "3a56dfbf-43b4-55c2-98a3-88f075b03a2c",
+      "eventID": "4011dc07-d8f6-4228-814c-36753ec1a1a3",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:37Z",
+      "eventSource": "s3.amazonaws.com",
+      "eventName": "ListBuckets",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "[AWSCloudTrail, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation]",
+      "requestParameters": {
+        "host": [
+          "s3.us-west-2.amazonaws.com"
+        ]
+      },
+      "responseElements": null,
+      "additionalEventData": {
+        "SignatureVersion": "SigV4",
+        "CipherSuite": "ECDHE-RSA-AES128-SHA",
+        "AuthenticationMethod": "AuthHeader",
+        "vpcEndpointId": "vpce-3c0ee755"
+      },
+      "requestID": "985310EB424EA5BD",
+      "eventID": "963c4d27-da1c-4882-ad5b-a84a39497ba5",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182",
+      "vpcEndpointId": "vpce-3c0ee755"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXIKZOJVW4",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:25Z",
+      "eventSource": "logs.amazonaws.com",
+      "eventName": "DescribeMetricFilters",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+      "requestParameters": {
+        "limit": 50
+      },
+      "responseElements": null,
+      "requestID": "b2199ca0-ec0d-4154-91ad-c2977033f27b",
+      "eventID": "491bcf55-fe96-44f2-9ece-1c9f7952c366",
+      "eventType": "AwsApiCall",
+      "apiVersion": "20140328",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:40Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeConfigurationRecorderStatus",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "AWSCloudTrail, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "f5fff56b-6295-4a77-bf31-2490bf7ec36c",
+      "eventID": "910fa1cc-ce71-4e7f-a313-d7c654bf2a71",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:40Z",
+      "eventSource": "config.amazonaws.com",
+      "eventName": "DescribeConfigurationRecorders",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "AWSCloudTrail, aws-internal/3 aws-sdk-java/1.11.783 Linux/4.9.184-0.1.ac.235.83.329.metal1.x86_64 OpenJDK_64-Bit_Server_VM/25.252-b09 java/1.8.0_252 vendor/Oracle_Corporation",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "55bc4298-cf68-440a-b4d8-e6535a835b8e",
+      "eventID": "3f93aa44-d2ab-476f-80f0-eb933e376289",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:44Z",
+      "eventSource": "cloudtrail.amazonaws.com",
+      "eventName": "DescribeTrails",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": {
+        "trailNameList": [],
+        "includeShadowTrails": true
+      },
+      "responseElements": null,
+      "requestID": "d56aab1b-9671-4d7d-b451-a6d82e778fb5",
+      "eventID": "085f5207-f761-4201-9bfc-92d1c8396b9b",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:44Z",
+      "eventSource": "kms.amazonaws.com",
+      "eventName": "ListKeys",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "5bcf19c9-5fe7-4077-85fd-1389f7f2e96f",
+      "eventID": "c7aef642-dba8-4572-928e-3a2fe150c1dd",
+      "readOnly": true,
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    },
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXGDX2BGRA",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:58:44Z",
+      "eventSource": "lambda.amazonaws.com",
+      "eventName": "ListFunctions20150331",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "console.amazonaws.com",
+      "requestParameters": null,
+      "responseElements": null,
+      "requestID": "8467dbfd-b470-414a-8061-d6541df06ac2",
+      "eventID": "312f2648-cd8d-4331-b4e4-6e1bac778b77",
+      "eventType": "AwsApiCall",
+      "recipientAccountId": "143762891182"
+    }
+  ]
+}

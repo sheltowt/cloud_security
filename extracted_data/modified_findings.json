@@ -1,0 +1,1322 @@
+{
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.11/finding/b0f0b0dc-1b3b-4a63-9953-f9d94dea7fa0",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.11",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:59.907Z",
+      "LastObservedAt": "2020-06-04T15:29:19.219Z",
+      "CreatedAt": "2020-06-02T15:28:59.907Z",
+      "UpdatedAt": "2020-06-04T15:29:17.144Z",
+      "Severity": {
+        "Product": 39,
+        "Label": "LOW",
+        "Normalized": 39,
+        "Original": "LOW"
+      },
+      "Title": "1.11 Ensure IAM password policy expires passwords within 90 days or less",
+      "Description": "IAM password policies can require passwords to be rotated or expired after a given number of days. It is recommended that the password policy expire passwords after 90 days or less.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.11/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.11",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.11/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-ensure-expires-c29265a1",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.11",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.11/finding/b0f0b0dc-1b3b-4a63-9953-f9d94dea7fa0"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.20/finding/77bb888b-28d6-4839-b1d8-c9801cc28ca6",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.20",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:30:01.098Z",
+      "LastObservedAt": "2020-06-04T15:29:15.882Z",
+      "CreatedAt": "2020-06-02T15:30:01.098Z",
+      "UpdatedAt": "2020-06-04T15:29:13.980Z",
+      "Severity": {
+        "Product": 39,
+        "Label": "LOW",
+        "Normalized": 39,
+        "Original": "LOW"
+      },
+      "Title": "1.20 Ensure a support role has been created to manage incidents with AWS Support",
+      "Description": "AWS provides a support center that can be used for incident notification and response, as well as technical support and customer services. Create an IAM Role to allow authorized users to manage incidents with AWS Support.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.20/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.20",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.20/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-support-policy-in-use-9a0d4db6",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.20",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.20/finding/77bb888b-28d6-4839-b1d8-c9801cc28ca6"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.6/finding/431928f3-a51b-4220-927e-108a74b4546c",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.6",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:59.356Z",
+      "LastObservedAt": "2020-06-04T15:29:05.891Z",
+      "CreatedAt": "2020-06-02T15:28:59.356Z",
+      "UpdatedAt": "2020-06-04T15:29:05.140Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.6 Ensure IAM password policy requires at least one lowercase letter",
+      "Description": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure passwords are comprised of different character sets. It is recommended that the password policy require at least one lowercase letter.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.6/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.6",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.6/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-lowercase-letter-check-18036950",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.6",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.6/finding/431928f3-a51b-4220-927e-108a74b4546c"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/2.4/finding/9082281e-ce2a-4407-ad20-c565e5ec46a5",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/2.4",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:29:35.676Z",
+      "LastObservedAt": "2020-06-04T15:28:59.176Z",
+      "CreatedAt": "2020-06-02T15:29:35.676Z",
+      "UpdatedAt": "2020-06-04T15:28:57.308Z",
+      "Severity": {
+        "Product": 1,
+        "Label": "LOW",
+        "Normalized": 1,
+        "Original": "LOW"
+      },
+      "Title": "2.4 Ensure CloudTrail trails are integrated with CloudWatch Logs",
+      "Description": "AWS CloudTrail is a web service that records AWS API calls made in a given AWS account. CloudTrail uses Amazon S3 for log file storage and delivery, so log files are stored durably. In addition to capturing CloudTrail logs within a specified S3 bucket for long term analysis, realtime analysis can be performed by configuring CloudTrail to send logs to CloudWatch Logs. It is recommended that CloudTrail logs be sent to CloudWatch Logs.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-2.4/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "2.4",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-2.4/remediation",
+        "RelatedAWSResources:0/name": "securityhub-cloud-trail-cloud-watch-logs-enabled-8f673ab8",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/2.4",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/2.4/finding/9082281e-ce2a-4407-ad20-c565e5ec46a5"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.4/finding/81ebbbff-fd03-46db-ae18-0d21ab91ef80",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.4",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:29:59.320Z",
+      "LastObservedAt": "2020-06-04T15:28:54.261Z",
+      "CreatedAt": "2020-06-02T15:29:59.320Z",
+      "UpdatedAt": "2020-06-04T15:28:52.164Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.4 Ensure access keys are rotated every 90 days or less",
+      "Description": "Access keys consist of an access key ID and secret access key, which are used to sign programmatic requests that you make to AWS. It is recommended that all access keys be regularly rotated.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.4/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.4",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.4/remediation",
+        "RelatedAWSResources:0/name": "securityhub-access-keys-rotated-9b5c60a9",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.4",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.4/finding/81ebbbff-fd03-46db-ae18-0d21ab91ef80"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.RDS.1/finding/4bd3a604-2093-4fd8-bdbc-e4a2b3cb198d",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.RDS.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Effects/Data Exposure/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:26:23.694Z",
+      "LastObservedAt": "2020-06-04T15:28:45.268Z",
+      "CreatedAt": "2020-06-02T15:26:23.694Z",
+      "UpdatedAt": "2020-06-04T15:28:44.808Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.RDS.1 RDS snapshots should prohibit public access",
+      "Description": "This AWS control checks if Amazon Relational Database Service (Amazon RDS) snapshots are public.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.RDS.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.RDS.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.RDS.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-rds-snapshots-public-prohibited-c7a61405",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.RDS.1",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.RDS.1/finding/4bd3a604-2093-4fd8-bdbc-e4a2b3cb198d"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 1.2.1",
+          "PCI DSS 1.3.1",
+          "PCI DSS 1.3.4",
+          "PCI DSS 1.3.6",
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.9/finding/8b576664-5522-4e9a-ae87-e67969304ef4",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.9",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:59.943Z",
+      "LastObservedAt": "2020-06-04T15:28:46.586Z",
+      "CreatedAt": "2020-06-02T15:28:59.943Z",
+      "UpdatedAt": "2020-06-04T15:28:44.717Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.9 Ensure IAM password policy requires minimum password length of 14 or greater",
+      "Description": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure passwords are at least a given length. It is recommended that the password policy require a minimum password length 14.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.9/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.9",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.9/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-minimum-length-check-fe7e0be9",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.9",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.9/finding/8b576664-5522-4e9a-ae87-e67969304ef4"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.10/finding/492766fa-5c5c-413f-82e1-6885fa9c0489",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.10",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:36.966Z",
+      "LastObservedAt": "2020-06-04T15:28:45.265Z",
+      "CreatedAt": "2020-06-02T15:28:36.966Z",
+      "UpdatedAt": "2020-06-04T15:28:43.558Z",
+      "Severity": {
+        "Product": 39,
+        "Label": "LOW",
+        "Normalized": 39,
+        "Original": "LOW"
+      },
+      "Title": "1.10 Ensure IAM password policy prevents password reuse",
+      "Description": "IAM password policies can prevent the reuse of a given password by the same user. It is recommended that the password policy prevent the reuse of passwords.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.10/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.10",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.10/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-prevent-reuse-check-4b55a7c0",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.10",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.10/finding/492766fa-5c5c-413f-82e1-6885fa9c0489"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.5/finding/cbf03857-8966-463b-b0ae-229385281083",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.5",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:29:16.787Z",
+      "LastObservedAt": "2020-06-04T15:28:42.238Z",
+      "CreatedAt": "2020-06-02T15:29:16.787Z",
+      "UpdatedAt": "2020-06-04T15:28:40.974Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.5 Ensure IAM password policy requires at least one uppercase letter",
+      "Description": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure passwords are comprised of different character sets. It is recommended that the password policy require at least one uppercase letter.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.5/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.5",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.5/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-uppercase-letter-check-af24a40e",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.5",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.5/finding/cbf03857-8966-463b-b0ae-229385281083"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.7/finding/2f337aed-2d7e-4549-a831-854106fa0f31",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.7",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:57.612Z",
+      "LastObservedAt": "2020-06-04T15:28:35.945Z",
+      "CreatedAt": "2020-06-02T15:28:57.612Z",
+      "UpdatedAt": "2020-06-04T15:28:34.257Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.7 Ensure IAM password policy requires at least one symbol",
+      "Description": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure passwords are comprised of different character sets. It is recommended that the password policy require at least one symbol.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.7/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.7",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.7/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-symbol-check-a46c1d1a",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.7",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.7/finding/2f337aed-2d7e-4549-a831-854106fa0f31"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.RDS.2/finding/92beb6ab-929a-4856-9c8f-597c98dbdef0",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.RDS.2",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Effects/Data Exposure/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:25:43.663Z",
+      "LastObservedAt": "2020-06-04T15:28:34.295Z",
+      "CreatedAt": "2020-06-02T15:25:43.663Z",
+      "UpdatedAt": "2020-06-04T15:28:33.589Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.RDS.2 RDS DB Instances should prohibit public access",
+      "Description": "This AWS control checks whether RDS instances are publicly accessible by evaluating the publiclyAccessible field in the instance configuration item.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.RDS.2/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.RDS.2",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.RDS.2/remediation",
+        "RelatedAWSResources:0/name": "securityhub-rds-instance-public-access-check-0f8363ac",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.RDS.2",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.RDS.2/finding/92beb6ab-929a-4856-9c8f-597c98dbdef0"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 1.2.1",
+          "PCI DSS 1.3.1",
+          "PCI DSS 1.3.2",
+          "PCI DSS 1.3.4",
+          "PCI DSS 1.3.6",
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.Lambda.1/finding/5ccbba2e-dccb-4973-a0e5-6d2da48e2fa6",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.Lambda.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:26:49.237Z",
+      "LastObservedAt": "2020-06-04T15:28:32.238Z",
+      "CreatedAt": "2020-06-02T15:26:49.237Z",
+      "UpdatedAt": "2020-06-04T15:28:31.075Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.Lambda.1 Lambda functions should prohibit public access",
+      "Description": "This AWS control checks whether the Lambda function policy attached to the Lambda resource prohibits public access.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.Lambda.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.Lambda.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.Lambda.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-lambda-function-public-access-prohibited-7a700582",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.Lambda.1",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.Lambda.1/finding/5ccbba2e-dccb-4973-a0e5-6d2da48e2fa6"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 1.2.1",
+          "PCI DSS 1.3.1",
+          "PCI DSS 1.3.2",
+          "PCI DSS 1.3.4",
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.EC2.1/finding/9260a35b-2430-44c5-8bc7-cace8c825d63",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.EC2.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Effects/Data Exposure/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:27:10.164Z",
+      "LastObservedAt": "2020-06-04T15:28:31.170Z",
+      "CreatedAt": "2020-06-02T15:27:10.164Z",
+      "UpdatedAt": "2020-06-04T15:28:28.916Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.EC2.1 EBS snapshots should not be publicly restorable",
+      "Description": "This AWS control checks whether Amazon Elastic Block Store snapshots are not publicly restorable.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.EC2.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.EC2.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.EC2.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-ebs-snapshot-public-restorable-check-dc7e46e2",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.EC2.1",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.EC2.1/finding/9260a35b-2430-44c5-8bc7-cace8c825d63"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 1.2.1",
+          "PCI DSS 1.3.1",
+          "PCI DSS 1.3.4",
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.CodeBuild.1/finding/4f1dafb6-48fa-4ac3-9276-55ece8dcd840",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.CodeBuild.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:26:37.299Z",
+      "LastObservedAt": "2020-06-04T15:28:26.566Z",
+      "CreatedAt": "2020-06-02T15:26:37.299Z",
+      "UpdatedAt": "2020-06-04T15:28:25.415Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.CodeBuild.1 CodeBuild GitHub or Bitbucket source repository URLs should use OAuth",
+      "Description": "This AWS control checks whether the GitHub or Bitbucket source repository URL contains either personal access tokens or user name and password.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.CodeBuild.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.CodeBuild.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.CodeBuild.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-codebuild-project-source-repo-url-check-aac8f1e3",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.CodeBuild.1",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.CodeBuild.1/finding/4f1dafb6-48fa-4ac3-9276-55ece8dcd840"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 8.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.IAM.2/finding/fdd4a1d5-e873-4358-aa9c-87f70a9f7789",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.IAM.2",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:27:01.765Z",
+      "LastObservedAt": "2020-06-04T15:28:26.297Z",
+      "CreatedAt": "2020-06-02T15:27:01.765Z",
+      "UpdatedAt": "2020-06-04T15:28:24.407Z",
+      "Severity": {
+        "Product": 39,
+        "Label": "LOW",
+        "Normalized": 39,
+        "Original": "LOW"
+      },
+      "Title": "PCI.IAM.2 IAM users should not have IAM policies attached",
+      "Description": "This AWS control checks that none of your IAM users have policies attached. IAM users must inherit permissions from IAM groups or roles.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.IAM.2/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.IAM.2",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.IAM.2/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-user-no-policies-check-e3e4b273",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.IAM.2",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.IAM.2/finding/fdd4a1d5-e873-4358-aa9c-87f70a9f7789"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/2.2/finding/a46bf6cd-e362-4677-a6cb-d9a17c338bb4",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/2.2",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:29:14.775Z",
+      "LastObservedAt": "2020-06-04T15:28:24.191Z",
+      "CreatedAt": "2020-06-02T15:29:14.775Z",
+      "UpdatedAt": "2020-06-04T15:28:22.735Z",
+      "Severity": {
+        "Product": 39,
+        "Label": "LOW",
+        "Normalized": 39,
+        "Original": "LOW"
+      },
+      "Title": "2.2 Ensure CloudTrail log file validation is enabled",
+      "Description": "CloudTrail log file validation creates a digitally signed digest file containing a hash of each log that CloudTrail writes to S3. These digest files can be used to determine whether a log file was changed, deleted, or unchanged after CloudTrail delivered the log. It is recommended that file validation be enabled on all CloudTrails.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-2.2/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "2.2",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-2.2/remediation",
+        "RelatedAWSResources:0/name": "securityhub-cloud-trail-log-file-validation-enabled-2bccf557",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/2.2",
+        "aws/securityhub/SeverityLabel": "LOW",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/2.2/finding/a46bf6cd-e362-4677-a6cb-d9a17c338bb4"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.8/finding/7abd89ba-81a1-4df1-88cf-451f16ee8cf2",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.8",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:28:41.727Z",
+      "LastObservedAt": "2020-06-04T15:28:19.160Z",
+      "CreatedAt": "2020-06-02T15:28:41.727Z",
+      "UpdatedAt": "2020-06-04T15:28:18.749Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "1.8 Ensure IAM password policy requires at least one number",
+      "Description": "Password policies are, in part, used to enforce password complexity requirements. IAM password policies can be used to ensure passwords are comprised of different character sets. It is recommended that the password policy require at least one number.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.8/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.8",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.8/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-password-policy-number-check-9490dbb6",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.8",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.8/finding/7abd89ba-81a1-4df1-88cf-451f16ee8cf2"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.14/finding/5bef622b-3f8c-48e6-b0da-e38b01ecbd6e",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0/rule/1.14",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/CIS AWS Foundations Benchmark"
+      ],
+      "FirstObservedAt": "2020-06-02T15:30:37.547Z",
+      "LastObservedAt": "2020-06-04T15:28:09.659Z",
+      "CreatedAt": "2020-06-02T15:30:37.547Z",
+      "UpdatedAt": "2020-06-04T15:28:07.592Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "1.14 Ensure hardware MFA is enabled for the \"root\" account",
+      "Description": "The root account is the most privileged user in an AWS account. MFA adds an extra layer of protection on top of a user name and password. With MFA enabled, when a user signs in to an AWS website, they will be prompted for their user name and password as well as for an authentication code from their AWS MFA device. For Level 2, it is recommended that the root account be protected with a hardware MFA.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub CIS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.14/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsGuideArn": "arn:aws:securityhub:::ruleset/cis-aws-foundations-benchmark/v/1.2.0",
+        "StandardsGuideSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0",
+        "RuleId": "1.14",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/standards-cis-1.14/remediation",
+        "RelatedAWSResources:0/name": "securityhub-root-account-hardware-mfa-enabled-644862a7",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/cis-aws-foundations-benchmark/v/1.2.0/1.14",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/cis-aws-foundations-benchmark/v/1.2.0/1.14/finding/5bef622b-3f8c-48e6-b0da-e38b01ecbd6e"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.SSM.1/finding/ec95e1fe-07da-46d2-9004-d9e3202fa4c0",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.SSM.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:26:38.571Z",
+      "LastObservedAt": "2020-06-04T15:28:07.141Z",
+      "CreatedAt": "2020-06-02T15:26:38.571Z",
+      "UpdatedAt": "2020-06-04T15:28:06.702Z",
+      "Severity": {
+        "Product": 40,
+        "Label": "MEDIUM",
+        "Normalized": 40,
+        "Original": "MEDIUM"
+      },
+      "Title": "PCI.SSM.1 EC2 instances managed by Systems Manager should have a patch compliance status of COMPLIANT after a patch installation",
+      "Description": "This AWS control checks whether the compliance status of the Amazon EC2 Systems Manager patch compliance is COMPLIANT or NON_COMPLIANT after the patch installation on the instance. It only checks instances that are managed by AWS Systems Manager Patch Manager.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.SSM.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.SSM.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.SSM.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-ec2-managedinstance-patch-compliance-0bf536b3",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.SSM.1",
+        "aws/securityhub/SeverityLabel": "MEDIUM",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.SSM.1/finding/ec95e1fe-07da-46d2-9004-d9e3202fa4c0"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 6.2"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    },
+    {
+      "SchemaVersion": "2018-10-08",
+      "Id": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.IAM.1/finding/47c7fe59-29f8-4ed0-8f32-ea3886cc006e",
+      "ProductArn": "arn:aws:securityhub:us-west-2::product/aws/securityhub",
+      "GeneratorId": "pci-dss/v/3.2.1/PCI.IAM.1",
+      "AwsAccountId": "143762891182",
+      "Types": [
+        "Software and Configuration Checks/Industry and Regulatory Standards/PCI-DSS"
+      ],
+      "FirstObservedAt": "2020-06-02T15:27:03.271Z",
+      "LastObservedAt": "2020-06-04T15:28:05.995Z",
+      "CreatedAt": "2020-06-02T15:27:03.271Z",
+      "UpdatedAt": "2020-06-04T15:28:04.775Z",
+      "Severity": {
+        "Product": 90,
+        "Label": "CRITICAL",
+        "Normalized": 90,
+        "Original": "CRITICAL"
+      },
+      "Title": "PCI.IAM.1 IAM root user access key should not exist",
+      "Description": "This AWS control checks if the root user access key is available.",
+      "Remediation": {
+        "Recommendation": {
+          "Text": "For directions on how to fix this issue, please consult the AWS Security Hub PCI DSS documentation.",
+          "Url": "https://docs.aws.amazon.com/console/securityhub/PCI.IAM.1/remediation"
+        }
+      },
+      "ProductFields": {
+        "StandardsArn": "arn:aws:securityhub:::standards/pci-dss/v/3.2.1",
+        "StandardsSubscriptionArn": "arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1",
+        "ControlId": "PCI.IAM.1",
+        "RecommendationUrl": "https://docs.aws.amazon.com/console/securityhub/PCI.IAM.1/remediation",
+        "RelatedAWSResources:0/name": "securityhub-iam-root-access-key-check-b543c9ae",
+        "RelatedAWSResources:0/type": "AWS::Config::ConfigRule",
+        "StandardsControlArn": "arn:aws:securityhub:us-west-2:143762891182:control/pci-dss/v/3.2.1/PCI.IAM.1",
+        "aws/securityhub/SeverityLabel": "CRITICAL",
+        "aws/securityhub/ProductName": "Security Hub",
+        "aws/securityhub/CompanyName": "AWS",
+        "aws/securityhub/annotation": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config.",
+        "aws/securityhub/FindingId": "arn:aws:securityhub:us-west-2::product/aws/securityhub/arn:aws:securityhub:us-west-2:143762891182:subscription/pci-dss/v/3.2.1/PCI.IAM.1/finding/47c7fe59-29f8-4ed0-8f32-ea3886cc006e"
+      },
+      "Resources": [
+        {
+          "Type": "AwsAccount",
+          "Id": "AWS::::Account:143762891182",
+          "Partition": "aws",
+          "Region": "us-west-2"
+        }
+      ],
+      "Compliance": {
+        "Status": "WARNING",
+        "RelatedRequirements": [
+          "PCI DSS 2.1",
+          "PCI DSS 2.2",
+          "PCI DSS 7.2.1"
+        ],
+        "StatusReasons": [
+          {
+            "ReasonCode": "CONFIG_ACCESS_DENIED",
+            "Description": "Unable to describe the supporting AWS Config Rule, Please verify that you have enabled AWS Config."
+          }
+        ]
+      },
+      "WorkflowState": "NEW",
+      "Workflow": {
+        "Status": "NEW"
+      },
+      "RecordState": "ACTIVE"
+    }

@@ -1,0 +1,37 @@
+{
+  "Records": [
+    {
+      "eventVersion": "1.05",
+      "userIdentity": {
+        "type": "Root",
+        "principalId": "143762891182",
+        "arn": "arn:aws:iam::143762891182:root",
+        "accountId": "143762891182",
+        "accessKeyId": "ASIASC6HPUGXIKZOJVW4",
+        "sessionContext": {
+          "sessionIssuer": {},
+          "webIdFederationData": {},
+          "attributes": {
+            "mfaAuthenticated": "true",
+            "creationDate": "2020-06-01T16:06:13Z"
+          }
+        }
+      },
+      "eventTime": "2020-06-01T16:53:22Z",
+      "eventSource": "logs.amazonaws.com",
+      "eventName": "DescribeMetricFilters",
+      "awsRegion": "us-west-2",
+      "sourceIPAddress": "75.166.90.35",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36",
+      "requestParameters": {
+        "limit": 50
+      },
+      "responseElements": null,
+      "requestID": "80ab0da7-868b-457a-a35e-519044caffc5",
+      "eventID": "64d1a6fd-1f33-44fb-8dbb-95cc162a4bce",
+      "eventType": "AwsApiCall",
+      "apiVersion": "20140328",
+      "recipientAccountId": "143762891182"
+    }
+  ]
+}
